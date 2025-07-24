@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calendario Agosto</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      max-width: 800px;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      height: 80px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f0f0f0;
+      color: #555;
+      text-align: center;
+    }
+
+    td[contenteditable="true"] {
+      outline: none;
+    }
+
+    /* Colores de ramos */
+    .bbm2 {
+      background-color: #c5f688;
+    }
+
+    .bases {
+      background-color: #a4e1ff;
+    }
+
+    .histo {
+      background-color: #ffa4dc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Agosto</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">1</td>
+        <td contenteditable="true">2</td>
+        <td contenteditable="true">3</td>
+        <td contenteditable="true">4</td>
+      </tr>
+      <tr>
+        <td contenteditable="true">7</td>
+        <td contenteditable="true">8</td>
+        <td contenteditable="true">9</td>
+        <td contenteditable="true">10</td>
+        <td contenteditable="true">11</td>
+      </tr>
+      <tr>
+        <td contenteditable="true">14</td>
+        <td contenteditable="true">15</td>
+        <td contenteditable="true">16</td>
+        <td contenteditable="true">17</td>
+        <td contenteditable="true">18</td>
+      </tr>
+      <tr>
+        <td contenteditable="true">21</td>
+        <td contenteditable="true">22</td>
+        <td contenteditable="true">23</td>
+        <td contenteditable="true">24</td>
+        <td contenteditable="true">25</td>
+      </tr>
+      <tr>
+        <td contenteditable="true">28</td>
+        <td contenteditable="true">29</td>
+        <td contenteditable="true">30</td>
+        <td contenteditable="true">31</td>
+        <td contenteditable="true"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top: 20px; font-size: 0.9em;">
+    Puedes escribir directamente en las celdas. Para aplicar color, usa las clases:
+    <code>bbm2</code>, <code>bases</code>, <code>histo</code>.
+  </p>
+
+</body>
+</html>
